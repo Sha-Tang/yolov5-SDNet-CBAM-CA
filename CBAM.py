@@ -1,4 +1,4 @@
-# 放到models/common.py文件下
+# 放到models/common.py文件下增加这些模块
 class ChannelAttention(nn.Module):
     def __init__(self, in_planes, ratio=16):
         super(ChannelAttention, self).__init__()
